@@ -1,0 +1,86 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+/* Estilos del contenedor del formulario */
+.container {
+    width: 80rem;
+    /* Ancho del contenedor en REM */
+    margin: 5rem auto;
+    /* Margen superior e inferior automático y margen izquierdo y derecho automático para centrar el contenedor en REM */
+    padding: 2rem;
+    /* Relleno interno del contenedor en REM */
+    border: 0.1rem solid #ccc;
+    /* Borde del contenedor en REM */
+    border-radius: 0.5rem;
+    /* Radio de borde para suavizar las esquinas en REM */
+}
+
+/* Estilos para el encabezado del formulario */
+h2 {
+    text-align: center;
+    /* Centra el texto del encabezado */
+}
+
+/* Estilos para el formulario */
+form {
+    display: flex;
+    /* Utiliza un diseño flexbox */
+    flex-direction: column;
+    /* Apila los elementos uno encima del otro */
+}
+
+/* Estilos para las etiquetas del formulario */
+label {
+    font-weight: bold;
+    /* Hace que las etiquetas estén en negrita */
+}
+
+/* Estilos para los campos de entrada, textarea y select */
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="number"],
+textarea,
+select {
+    width: 100%;
+    /* Ancho completo */
+    padding: 0.8rem;
+    /* Relleno interno */
+    margin-bottom: 1rem;
+    /* Espacio inferior entre los elementos en REM */
+    border: 0.1rem solid #ccc;
+    /* Borde */
+    border-radius: 0.4rem;
+    /* Radio de borde para suavizar las esquinas */
+    box-sizing: border-box;
+    /* Incluye el relleno y el borde en el ancho total */
+}
+
+/* Estilos para el botón de envío */
+button {
+    width: 100%;
+    /* Ancho completo */
+    padding: 1rem;
+    /* Relleno interno */
+    background-color: #4CAF50;
+    /* Color de fondo */
+    color: white;
+    /* Color del texto */
+    border: none;
+    /* Sin borde */
+    border-radius: 0.4rem;
+    /* Radio de borde para suavizar las esquinas */
+    cursor: pointer;
+    /* Cursor de puntero */
+}
+
+/* Cambio de color al pasar el cursor sobre el botón de envío */
+button:hover {
+    background-color: #45a049;
+    /* Nuevo color de fondo */
+}
